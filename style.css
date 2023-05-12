@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.t-container {
+    @apply w-full lg:w-[80%] px-5 xl:px-0 mx-auto;
+}
+
+.br-block {
+    @apply hidden md:block;
+}
+
+.t-heading-1 {
+    @apply text-3xl md:text-5xl xl:text-7xl font-bold capitalize;
+}
+
+.t-heading-6 {
+    @apply text-base md:text-lg xl:text-xl font-medium;
+}
+    
+.swiper-pagination {
+    @apply md:right-0 md:h-full md:flex md:flex-col items-center justify-center md:bg-gradient-to-l from-[rgba(0,0,0,0.3)];
+    width: 120px!important;
+    left: initial!important;
+}
+@media only screen and (max-width: 768px){
+    .swiper-pagination {
+        width: 100%!important;
+    }
+}
+
+.swiper-pagination-bullet {
+    @apply md:p-1.5 border border-white;
+    background-color: transparent!important;
+    opacity: 1!important;
+    margin-top: 7px!important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: white!important;
+}
+
+.t-button-white-h-primary {
+    @apply bg-white hover:bg-t-primary rounded shadow w-32 lg:w-52 py-2 lg:py-3 text-gray-900 hover:text-gray-100 lg:text-xl text-center font-semibold inline-block transition-all;
+}
+
+.t-button-secondary {
+    @apply bg-t-secondary rounded shadow w-32 lg:w-52 py-2 lg:py-3 text-white lg:text-lg inline-block hover:bg-purple-800 transition-all;
+}
+
+.t-button-primary {
+    @apply bg-t-primary rounded shadow w-32 lg:w-52 py-2 lg:py-3 text-white lg:text-lg inline-block hover:bg-blue-600 transition-all;
+}
+
+.t-button-secondary-sm {
+    @apply bg-t-secondary rounded shadow w-32 py-2 text-white inline-block hover:bg-purple-800 transition-all;
+}
+
+.t-button-primary-sm {
+    @apply bg-t-primary rounded shadow w-32 py-2 text-white inline-block hover:bg-blue-600 transition-all;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 60px!important;
+    height: 60px!important;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    @apply text-gray-700 ;
+    font-size: 25px!important;
+}
+
+@media only screen and (max-width: 768px){
+    .swiper-button-next, .swiper-button-prev {
+        width: 30px!important;
+        height: 30px!important;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 15px!important;
+    }
+    
+}
+
+.mega-menu-link {
+    @apply hover:text-t-secondary hover:translate-x-1 text-gray-700 duration-300 transition-all block font-medium ;
+}

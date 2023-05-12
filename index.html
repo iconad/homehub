@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="site-wrapper" x-data="{ isMenu: false }">
+
+    <!-- ===== MEGA MENU ===== -->
+
+    <div id="MegaMenu" class="hidden mega-menu fixed inset-0 z-10 p-10 bg-black bg-opacity-50">
+      <div class="flex items-center justify-center h-full">
+        <div class="w-3/4 bg-white p-3 border rounded-xl relative border-t-secondary">
+
+          <div id="closeMegaMenu" class="w-9 h-9 rounded-full border border-t-secondary hover:shadow-xl hover:bg-t-primary hover:border-t-primary cursor-pointer transition-all bg-t-secondary text-white flex items-center justify-center absolute -right-3 -top-3">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>          
+          </div>
+
+          <div class="masonry-grid">
+            
+            <div class="w-1/4 masonry-grid-item space-y-2">
+              <div class="px-5 py-2">
+                <h4 class="font-semibold">Moving & Storage</h4>
+                <ul class="space-y-1">
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> International moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Storage </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                </ul>
+              </div>
+            </div>
+            <!-- item -->
+
+            <div class="w-1/4 masonry-grid-item space-y-2">
+              <div class="px-5 py-2">
+                <h4 class="font-semibold">Maintenance & handyman</h4>
+                <ul class="space-y-1">
+                  <li> <a class="mega-menu-link" href=""> Handyman </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Home Maintenance </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Carpentry </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Electrician </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Furniture assembly </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Home Appliance Repair and Installation </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Locksmiths </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Plumber </a> </li>
+                  <li> <a class="mega-menu-link" href=""> TV Mounting </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Painting </a> </li>
+                </ul>
+              </div>
+            </div>
+            <!-- item -->
+
+            <div class="w-1/4 masonry-grid-item space-y-2">
+              <div class="px-5 py-2">
+                <h4 class="font-semibold">Salon at Home</h4>
+                <ul class="space-y-1">
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> International moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Storage </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                </ul>
+              </div>
+            </div>
+            <!-- item -->
+
+            <div class="w-1/4 masonry-grid-item space-y-2">
+              <div class="px-5 py-2">
+                <h4 class="font-semibold">Health at Home</h4>
+                <ul class="space-y-1">
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> International moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Storage </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                </ul>
+              </div>
+            </div>
+            <!-- item -->
+
+            <div class="w-1/4 masonry-grid-item space-y-2">
+              <div class="px-5 py-2">
+                <h4 class="font-semibold">Cleaning Services</h4>
+                <ul class="space-y-1">
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> International moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Storage </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                </ul>
+              </div>
+            </div>
+            <!-- item -->
+
+            <div class="w-1/4 masonry-grid-item space-y-2">
+              <div class="px-5 py-2">
+                <h4 class="font-semibold">Pet Services</h4>
+                <ul class="space-y-1">
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                </ul>
+              </div>
+            </div>
+            <!-- item -->
+
+            <div class="w-1/4 masonry-grid-item space-y-2">
+              <div class="px-5 py-2">
+                <h4 class="font-semibold">Pest Control and Gardening</h4>
+                <ul class="space-y-1">
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                </ul>
+              </div>
+            </div>
+            <!-- item -->
+
+            <div class="w-1/4 masonry-grid-item space-y-2">
+              <div class="px-5 py-2">
+                <h4 class="font-semibold">AC Services</h4>
+                <ul class="space-y-1">
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Local moving </a> </li>
+                  <li> <a class="mega-menu-link" href=""> Car shipping </a> </li>
+                </ul>
+              </div>
+            </div>
+            <!-- item -->
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== MEGA MENU ===== -->
+
+      
+      <nav class="main-navbar-wrapper py-8 bg-white">
+        <div class="t-container">
+          
+          <div class="flex flex-wrap items-center justify-between">
+            <div class="logo w-[30%] sm:w-[25%] md:w-[20%] lg:w-1/3">
+              <img src="./images/logo.png" alt="logo" class="w-full lg:w-[180px]">
+            </div>
+            <!-- logo -->
+  
+            <div class="seach w-1/2 lg:w-1/3">
+              
+              <form>   
+                <div class="relative w-full mx-auto">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg aria-hidden="true" class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    </div>
+                    <input type="search" id="default-search" class="block w-full p-3 pl-10 text-sm text-gray-900 rounded border border-gray-300 bg-gray-100 focus:outline-none focus:border-t-secondary" placeholder="Search" required>
+                    <button type="submit" class="text-gray-800 absolute right-4 bottom-2.5">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                      </svg>                  
+                    </button>
+                </div>
+              </form>
+  
+            </div>
+            <!-- search -->
+  
+            <div class="burger-button w-auto lg:w-1/3 flex justify-end">
+              <img @click="isMenu = !isMenu" src="./images/burger.png" alt="burger icon" class="w-8 cursor-pointer">
+            </div>
+            <!-- burgur button -->
+          </div>
+
+        </div>
+        <!-- container -->
+      </nav>
+      <!-- main navbar wrapper -->
+
+      <section class="home-carousel relative">
+
+        <div class="cover-social absolute h-full w-24 z-[2] hidden sm:flex items-center justify-center bg-gradient-to-r from-[rgba(0,0,0,0.3)]">
+
+          <ul class="flex flex-col space-y-4 text-white">
+            
+            <li>
+              <a href="#">
+                <svg class="w-5 h-5 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 0 0 1.384 2.126A5.868 5.868 0 0 0 4.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 0 0 2.126-1.384 5.86 5.86 0 0 0 1.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 0 0-1.384-2.126A5.847 5.847 0 0 0 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 0 1-.899 1.382 3.744 3.744 0 0 1-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 0 1-1.379-.899 3.644 3.644 0 0 1-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 1 0 0-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 0 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/></svg>              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <svg class="w-5 h-5 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <svg class="w-5 h-5 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <svg class="w-5 h-5 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 0 1-2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 0 0-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1-2.228-.616v.06a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1-2.212.085 4.936 4.936 0 0 0 4.604 3.417 9.867 9.867 0 0 1-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0 0 24 4.59z"/></svg>
+              </a>
+            </li>
+
+          </ul>          
+        </div>
+        <!-- cover social -->
+
+        <!-- Slider main container -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-center">
+
+                <div class="text-white space-y-2 lg:space-y-5 w-4/5 lg:w-full mx-auto">
+                  <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">Welcome to Homehub <br class="br-block"> Your Trusted Partner for Home Services!</h1>
+                  <p class="text-sm lg:text-xl font-normal lg:font-semibold">Homehub is your one-stop destination for a wide range of home services.</p>
+                  <a href="" class="t-button-secondary">
+                    Book Now
+                  </a> 
+                </div>
+
+              </div>
+              <img src="./images/cover-1.jpg" alt="cover image" class="w-full object-cover h-96 md:h-[75vh]">
+            </div>
+            <!-- slide -->
+
+            <div class="swiper-slide">
+              <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-center">
+
+                <div class="text-white space-y-2 lg:space-y-5 w-4/5 lg:w-full mx-auto">
+                  <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">Welcome to Homehub <br class="br-block"> Your Trusted Partner for Home Services!</h1>
+                  <p class="text-sm lg:text-xl font-normal lg:font-semibold">Homehub is your one-stop destination for a wide range of home services.</p>
+                  <a href="" class="t-button-secondary">
+                    Book Now
+                  </a> 
+                </div>
+
+              </div>
+              <img src="./images/cover-2.jpg" alt="cover image" class="w-full object-cover h-96 md:h-[75vh]">
+            </div>
+            <!-- slide -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+          
+        </div>
+
+      </section>  
+      <!-- carousel section -->
+
+      <section class="our-sevices-section py-16 md:py-32">
+
+        <div class="t-container">
+
+          <div class="section-header text-center space-y-5">
+            <h2 class="t-heading-1">our services</h2>
+            <p class="t-heading-6">Our team of experts is dedicated to providing you with <br class="br-block">
+              top-notch services, tailored to your unique needs</p>
+          </div>
+          <!-- section header -->
+
+          <div class="section-body mt-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-16">
+
+              <div class="grid-item rounded-3xl overflow-hidden border group hover:shadow-2xl hover:shadow-t-primary/50 transition-all duration-400 relative">
+                <div class="absolute inset-0 transition-all duration-400 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative">
+                  <img src="./images/service-1.jpg" alt="service image" class="w-full h-64 object-cover">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-bold">Deep Cleaning</h3>
+                    <p class="text-sm">We offer professional deep cleaning services
+                      that leave your home looking and smelling
+                      fresh. Our team of cleaners uses advanced
+                      equipment and safe cleaning products to
+                      ensure the highest standards of cleanliness.</p>
+                  </div>
+
+                  <div class="text-center px-5 pb-5">
+                    <a href="#" class="bg-t-secondary group-hover:bg-white group-hover:text-gray-900 rounded shadow pt-[0.9rem] font-medium pb-[1rem] leading-none text-white block hover:bg-blue-600 transition-all">
+                      Learn More
+                    </a>  
+                  </div>
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="grid-item rounded-3xl overflow-hidden border group hover:shadow-2xl hover:shadow-t-primary/50 transition-all duration-400 relative">
+                <div class="absolute inset-0 transition-all duration-400 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative">
+                  <img src="./images/service-2.jpg" alt="service image" class="w-full h-64 object-cover">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-semibold">Sanitization</h3>
+                    <p class="text-sm">At Homehub, we understand the
+                      importance of keeping your home healthy
+                      and germ-free. Our sanitization services use
+                      hospital-grade disinfectants to kill germs
+                      and viruses, ensuring a safe and hygienic
+                      living environment for you and your family.</p>
+                  </div>
+
+                  <div class="text-center px-5 pb-5">
+                    <a href="#" class="bg-t-secondary group-hover:bg-white group-hover:text-gray-900 rounded shadow pt-[0.9rem] font-medium pb-[1rem] leading-none text-white block hover:bg-blue-600 transition-all">
+                      Learn More
+                    </a>  
+                  </div>
+                  
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="grid-item rounded-3xl overflow-hidden border group hover:shadow-2xl hover:shadow-t-primary/50 transition-all duration-400 relative">
+                <div class="absolute inset-0 transition-all duration-400 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative">
+                  <img src="./images/service-3.jpg" alt="service image" class="w-full h-64 object-cover">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-semibold">Pest Control</h3>
+                    <p class="text-sm">Our pest control services are designed to
+                      keep your home free from unwanted pests.
+                      Our team of experts uses safe and effective
+                      methods to eliminate pests from your home
+                      and prevent future infestations.</p>
+                  </div>
+
+                  <div class="text-center px-5 pb-5">
+                    <a href="#" class="bg-t-secondary group-hover:bg-white group-hover:text-gray-900 rounded shadow pt-[0.9rem] font-medium pb-[1rem] leading-none text-white block hover:bg-blue-600 transition-all">
+                      Learn More
+                    </a>  
+                  </div>
+                  
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="grid-item rounded-3xl overflow-hidden border group hover:shadow-2xl hover:shadow-t-primary/50 transition-all duration-400 relative">
+                <div class="absolute inset-0 transition-all duration-400 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative">
+                  <img src="./images/service-4.jpg" alt="service image" class="w-full h-64 object-cover">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-semibold">Painting</h3>
+                    <p class="text-sm">Whether you are looking to update the look
+                      of your home or simply freshen up the walls,
+                      our professional painters have got you
+                      covered. We use high-quality paints and
+                      materials to ensure a flawless finish that will
+                      last for years.</p>
+                  </div>
+
+                  <div class="text-center px-5 pb-5">
+                    <a href="#" class="bg-t-secondary group-hover:bg-white group-hover:text-gray-900 rounded shadow pt-[0.9rem] font-medium pb-[1rem] leading-none text-white block hover:bg-blue-600 transition-all">
+                      Learn More
+                    </a>  
+                  </div>
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="grid-item rounded-3xl overflow-hidden border group hover:shadow-2xl hover:shadow-t-primary/50 transition-all duration-400 relative">
+                <div class="absolute inset-0 transition-all duration-400 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                  <div class="z-1 relative">  
+                  <img src="./images/service-5.jpg" alt="service image" class="w-full h-64 object-cover">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-semibold">Interior Design</h3>
+                    <p class="text-sm">Our interior designers work closely with you
+                      to create a customized design that suits
+                      your personal style and needs. We offer a
+                      range of design services, from furniture
+                      selection to color schemes and lighting
+                      design.</p>
+                  </div>
+
+                  <div class="text-center px-5 pb-5">
+                    <a href="#" class="bg-t-secondary group-hover:bg-white group-hover:text-gray-900 rounded shadow pt-[0.9rem] font-medium pb-[1rem] leading-none text-white block hover:bg-blue-600 transition-all">
+                      Learn More
+                    </a>  
+                  </div>
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="grid-item rounded-3xl overflow-hidden border group hover:shadow-2xl hover:shadow-t-primary/50 transition-all duration-400 relative">
+                <div class="absolute inset-0 transition-all duration-400 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                  <div class="z-1 relative">
+                  <img src="./images/service-6.jpg" alt="service image" class="w-full h-64 object-cover">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-semibold">Garden Maintenance</h3>
+                    <p class="text-sm">Our garden maintenance services include
+                      everything from lawn mowing to tree
+                      trimming and planting. Our team of experts
+                      will keep your garden looking lush and
+                      beautiful all year round.</p>
+                  </div>
+
+                  <div class="text-center px-5 pb-5">
+                    <a href="#" class="bg-t-secondary group-hover:bg-white group-hover:text-gray-900 rounded shadow pt-[0.9rem] font-medium pb-[1rem] leading-none text-white block hover:bg-blue-600 transition-all">
+                      Learn More
+                    </a>  
+                  </div>
+                  
+                </div>
+              </div>
+              <!-- grid item -->
+
+            </div>
+            <!-- secvices grid -->
+          </div>
+          <!-- section body -->
+          
+        </div>
+
+      </section>
+      <!-- our services section -->
+
+
+      <section class="our-pricing-section py-14">
+
+        <div class="t-container">
+
+          <div class="section-header text-center space-y-5">
+            <h2 class="t-heading-1">Our Pricing</h2>
+            <p class="t-heading-6">
+              At Homehub, we offer flexible plans to meet your unique needs. We  understand <br class="br-block"> that every home is different, and that is why we offer 
+              customized <br class="br-block"> pricing packages for our services.</p>
+
+              <p class="my-10 font-bold text-2xl">Select your ideal level of service with our customized packages</p>
+
+          </div>
+          <!-- section header -->
+
+          <div class="section-body mt-20">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-5 xl:gap-16">
+
+              <div class="hover:-translate-y-12 transition-all duration-300 hover:shadow-2xl hover:shadow-t-primary/50 grid-item rounded-3xl overflow-hidden border group relative bg-gradient-to-b from-t-secondary via-t-primary to-t-primary text-white">                
+                <div class="absolute inset-0 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-gradient-to-t from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative">
+
+                  <div class="px-5 py-16 xl:p-10 space-y-2 group-hover:text-white text-center transition-all">
+                    
+                    <h3 class="text-5xl lg:text-4xl xl:text-5xl font-bold">Basic</h3>
+
+                    <p class="text-sm">This package includes our standard
+                      service, perfect for regular maintenance
+                      and upkeep of your home.</p>
+                      
+                      <div class="py-12 lg:py-16 space-y-8">
+                        <div>
+                          <p class="text-2xl">AED</p>
+                          <p class="text-7xl lg:text-5xlxl:text-7xl font-bold">300</p>
+                        </div>
+                        
+                        <div class="text-center px-5 pb-5">
+                          <a href="#" class="bg-white text-gray-700 rounded pt-[0.9rem] font-semibold text-2xl pb-[1rem] leading-none border block transition-all">
+                            Buy Now
+                          </a>  
+                        </div>
+                      </div>
+
+                      <ul>
+                        
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">POWERFUL ADMIN PANEL</span>
+                        </li>
+
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">1 NATIVE ANDROID APP</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">MULTI-LANGUAGE SUPPORT</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">FREE SSL CERTIFICATE</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">1X ALLOCATED RESOURCES</span>
+                        </li>
+
+                      </ul>
+
+                  </div>                  
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="hover:-translate-y-12 transition-all duration-300 hover:shadow-2xl hover:shadow-t-secondary/50 grid-item rounded-3xl overflow-hidden border group relative bg-gradient-to-t from-t-secondary to-t-primary text-white">
+                <div class="absolute inset-0 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-gradient-to-t from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative">
+
+                  <div class="px-5 py-16 xl:p-10 space-y-2 group-hover:text-white text-center transition-all">
+                    
+                    <h3 class="text-5xl lg:text-4xl xl:text-5xl font-bold">Premium</h3>
+
+                    <p class="text-sm">Our premium package includes additional
+                      services such as deep cleaning and pest
+                      control, providing a comprehensive
+                      solution for all your home needs.</p>
+                      
+                      <div class="py-12 lg:py-16 space-y-8">
+                        <div>
+                          <p class="text-2xl">AED</p>
+                          <p class="text-7xl lg:text-5xlxl:text-7xl font-bold">300</p>
+                        </div>
+                        
+                        <div class="text-center px-5 pb-5">
+                          <a href="#" class="bg-white text-gray-700 rounded pt-[0.9rem] font-semibold text-2xl pb-[1rem] leading-none border block transition-all">
+                            Buy Now
+                          </a>  
+                        </div>
+                      </div>
+
+                      <ul>
+                        
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">POWERFUL ADMIN PANEL</span>
+                        </li>
+
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">1 NATIVE ANDROID APP</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">MULTI-LANGUAGE SUPPORT</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">FREE SSL CERTIFICATE</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">1X ALLOCATED RESOURCES</span>
+                        </li>
+
+                      </ul>
+
+                  </div>                  
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="hover:-translate-y-12 transition-all duration-300 hover:shadow-2xl hover:shadow-t-primary/50 grid-item rounded-3xl overflow-hidden border group relative bg-gradient-to-b from-t-secondary via-t-primary to-t-primary text-white">
+                <div class="absolute inset-0 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-gradient-to-t from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative">
+
+                  <div class="px-5 py-16 xl:p-10 space-y-2 group-hover:text-white text-center transition-all">
+                    
+                    <h3 class="text-5xl lg:text-4xl xl:text-5xl font-bold">Elite</h3>
+
+                    <p class="text-sm">Our elite package is designed for those
+                      who want the highest level of service. This
+                      package includes all the services in our
+                      premium package, plus interior design
+                      and garden maintenance services.</p>
+                      
+                      <div class="py-12 lg:py-16 space-y-8">
+                        <div>
+                          <p class="text-2xl">AED</p>
+                          <p class="text-7xl lg:text-5xlxl:text-7xl font-bold">300</p>
+                        </div>
+                        
+                        <div class="text-center px-5 pb-5">
+                          <a href="#" class="bg-white text-gray-700 rounded pt-[0.9rem] font-semibold text-2xl pb-[1rem] leading-none border block transition-all">
+                            Buy Now
+                          </a>  
+                        </div>
+                      </div>
+
+                      <ul>
+                        
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">POWERFUL ADMIN PANEL</span>
+                        </li>
+
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">1 NATIVE ANDROID APP</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">MULTI-LANGUAGE SUPPORT</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">FREE SSL CERTIFICATE</span>
+                        </li>
+
+                        <li class="flex items-center space-x-1">
+                          <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                            
+                          </span>
+                          <span class="text-sm font-medium">1X ALLOCATED RESOURCES</span>
+                        </li>
+
+                      </ul>
+
+                  </div>                  
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+
+            </div>
+            <!-- secvices grid -->
+
+            <div class="mt-10 md:mt-24 w-full md:w-3/4 mx-auto">
+              <p class="t-heading-6 text-center">Our pricing packages are tailored to fit your budget and requirements,
+                ensuring that you get the best value for your money. Contact us today to
+                discuss your needs and get a customized quote. With Homehub, you can
+                enjoy top-quality home services without breaking the bank.</p>
+            </div>
+
+
+          </div>
+          <!-- section body -->
+          
+          
+        </div>
+
+        <div class="mt-10 md:mt-20">
+          <img src="./images/service-cover.jpg" alt="service image">
+        </div>
+
+      </section>
+      <!-- our pricing section -->
+
+      <section class="how-works-section py-16 md:py-32">
+
+        <div class="t-container">
+
+          <div class="section-header text-center space-y-5">
+            <h2 class="t-heading-1">How it works</h2>
+            <p class="t-heading-6">3 steps to hassle-free service at your doorstep.</p>
+          </div>
+          <!-- section header -->
+
+          <div class="section-body mt-20">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
+
+              <div class="grid-item relative">
+                <div class="absolute inset-0 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative space-y-3">
+                  <img src="./images/icons/how-1.svg" alt="service image" class="w-full h-40 mx-auto">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-bold">Book your service</h3>
+                    <p class="text-sm font-medium text-gray-700">Select the service you need, choose your preferred date and time, and provide your location details.</p>
+                  </div>
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="grid-item relative">
+                <div class="absolute inset-0 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative space-y-3">
+                  <img src="./images/icons/how-2.svg" alt="service image" class="w-full h-40 mx-auto">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-bold">Match with a professional</h3>
+                    <p class="text-sm font-medium text-gray-700">We match you with a certified <br class="br-block">
+                      professional who meets your
+                      specific requirements.</p>
+                  </div>
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+              <div class="grid-item relative">
+                <div class="absolute inset-0 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-t-secondary to-t-primary"></div>
+                <div class="z-1 relative space-y-3">
+                  <img src="./images/icons/how-3.svg" alt="service image" class="w-full h-40 mx-auto">
+                  <div class="p-5 space-y-2 group-hover:text-white text-center transition-all">
+                    <h3 class="text-2xl font-bold">Enjoy hassle-free service</h3>
+                    <p class="text-sm font-medium text-gray-700">Our professional arrives at your
+                      doorstep at the scheduled time, fully
+                      equipped with the necessary tools
+                      and materials.</p>
+                  </div>
+
+                </div>
+              </div>
+              <!-- grid item -->
+
+            </div>
+            <!-- secvices grid -->
+          </div>
+          <!-- section body -->
+          
+        </div>
+
+      </section>
+      <!-- how works section -->
+
+      <section class="why-homehub-section py-16 md:py-32 bg-gradient-to-tr from-t-secondary to-t-primary">
+
+        <div class="t-container">
+
+          <div class="section-header text-center space-y-5 text-white">
+            <h2 class="t-heading-1">Why Choose Homehub?</h2>
+            <p class="t-heading-6">We are the largest home services marketplace in the Middle East. <br class="br-block"> Thousands of people trust us with their homes every month. </p>
+          </div>
+          <!-- section header -->
+
+          <div class="section-body mt-20">
+            <div class="flex flex-wrap items-center justify-center">
+
+              <div class="w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-5 group">
+                <div class="relative text-white group-hover:-translate-y-5 group-hover:shadow-2xl group-hover:shadow-t-primary/70 transition-all duration-300">
+                  <div class="absolute inset-0 transition-all duration-300 bg-gradient-to-tr from-t-secondary/10 via-t-secondary/15 to-t-secondary rounded-xl overflow-hidden"></div>
+                  <div class="z-1 relative">
+                    <div class="p-5 xl:p-10 space-y-2 group-hover:text-white transition-all space-y-5">
+                      <div class="text-[8rem] lg:text-[6rem] xl:text-[8rem] font-bold leading-none group-hover:drop-shadow-xl transition-all duration-300">01</div>
+                      <h3 class="text-3xl lg:text-2xl xl:text-3xl font-bold">Trusted <br> Professionals</h3>
+                      <p class="font-medium text-gray-100">We only work with certified professionals who are screened and trained to deliver high-quality services</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+
+              <div class="w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-5 group">
+                <div class="relative text-white group-hover:-translate-y-5 group-hover:shadow-2xl group-hover:shadow-t-primary/70 transition-all duration-300">
+                  <div class="absolute inset-0 transition-all duration-300 bg-gradient-to-bl from-t-secondary via-t-secondary/10 to-t-primary rounded-xl overflow-hidden"></div>
+                  <div class="z-1 relative">
+                    <div class="p-5 xl:p-10 space-y-2 group-hover:text-white transition-all space-y-5">
+                      <div class="text-[8rem] lg:text-[6rem] xl:text-[8rem] font-bold leading-none group-hover:drop-shadow-xl transition-all duration-300">02</div>
+                      <h3 class="text-3xl lg:text-2xl xl:text-3xl font-bold">Quality<br> Assurance </h3>
+                      <p class="font-medium text-gray-100">We only work with certified professionals who are screened and trained to deliver high-quality services</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+
+              <div class="w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-5 group">
+                <div class="relative text-white group-hover:-translate-y-5 group-hover:shadow-2xl group-hover:shadow-t-primary/70 transition-all duration-300">
+                  <div class="absolute inset-0 transition-all duration-300 bg-gradient-to-bl from-t-secondary to-t-primary rounded-xl overflow-hidden"></div>
+                  <div class="z-1 relative">
+                    <div class="p-5 xl:p-10 space-y-2 group-hover:text-white transition-all space-y-5">
+                      <div class="text-[8rem] lg:text-[6rem] xl:text-[8rem] font-bold leading-none group-hover:drop-shadow-xl transition-all duration-300">03</div>
+                      <h3 class="text-3xl lg:text-2xl xl:text-3xl font-bold">Easy <br> Booking</h3>
+                      <p class="font-medium text-gray-100">We only work with certified professionals who are screened and trained to deliver high-quality services</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+
+              <div class="w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-5 group">
+                <div class="relative text-white group-hover:-translate-y-5 group-hover:shadow-2xl group-hover:shadow-t-primary/70 transition-all duration-300">
+                  <div class="absolute inset-0 transition-all duration-300 bg-gradient-to-tr from-t-secondary to-t-primary rounded-xl overflow-hidden"></div>
+                  <div class="z-1 relative">
+                    <div class="p-5 xl:p-10 space-y-2 group-hover:text-white transition-all space-y-5">
+                      <div class="text-[8rem] lg:text-[6rem] xl:text-[8rem] font-bold leading-none group-hover:drop-shadow-xl transition-all duration-300">04</div>
+                      <h3 class="text-3xl lg:text-2xl xl:text-3xl font-bold">Affordable <br> Pricing</h3>
+                      <p class="font-medium text-gray-100">We only work with certified professionals who are screened and trained to deliver high-quality services</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+
+              <div class="w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-5 group">
+                <div class="relative text-white group-hover:-translate-y-5 group-hover:shadow-2xl group-hover:shadow-t-primary/70 transition-all duration-300">
+                  <div class="absolute inset-0 transition-all duration-300 bg-gradient-to-tr from-t-secondary to-t-primary rounded-xl overflow-hidden"></div>
+                  <div class="z-1 relative">
+                    <div class="p-5 xl:p-10 space-y-2 group-hover:text-white transition-all space-y-5">
+                      <div class="text-[8rem] lg:text-[6rem] xl:text-[8rem] font-bold leading-none group-hover:drop-shadow-xl transition-all duration-300">05</div>
+                      <h3 class="text-3xl lg:text-2xl xl:text-3xl font-bold">Customer <br> Support</h3>
+                      <p class="font-medium text-gray-100">We only work with certified professionals who are screened and trained to deliver high-quality services</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+
+            </div>
+            <!-- secvices flex -->
+          </div>
+          <!-- section body -->
+
+          <div class="w-full lg:w-1/2 mx-auto mt-10 text-center space-y-8">
+            <p class="t-heading-6 text-center text-white mt-10">Book your services with Homehub today and experience hassle-free, high-quality home services</p>
+            <a href="#" class="t-button-white-h-primary">Book Now</a>
+          </div>
+          
+        </div>
+
+      </section>
+      <!-- why homehub -->
+
+      <section class="how-works-section py-16 md:py-32">
+
+        <div class="t-container">
+
+          <div class="section-header text-center space-y-5">
+            <h2 class="t-heading-1">What Homehub Customers</h2>
+            <p class="text-3xl md:text-6xl font-light italic">Have to Say About Their Experience</p>
+          </div>
+          <!-- section header -->
+
+          <div class="section-body mt-20">
+            <div class="">
+
+              <div class="swiper swiperQuotes">
+                <div class="swiper-wrapper">
+      
+                  <div class="swiper-slide">
+                      <div class="w-4/5 lg:w-2/3 xl:w-1/2 mx-auto p-10 rounded-3xl space-y-2 bg-gray-100 group-hover:text-whitetransition-all space-y-10">
+                        <div class="flex items-center space-x-3">
+                          <img src="./images/user.png" alt="service image" class="w-16 h-16 rounded-full">
+                          <div class="font-semibold text-gray-800"> 
+                          <div class="text-xl">Sarah W</div>
+                          <div class="text-xs font-medium text-gray-600">Thursday, 2 May 2021</div>
+                          </div>
+                        </div>
+                        <div>
+                          <blockquote class="text-lg font-medium text-gray-700">
+                            "I was blown away by the quality of the products
+                            and the personalized service I received from
+                            Justlife. They truly go above and beyond to make
+                            sure their customers are happy."
+                          </blockquote>  
+                        </div>
+                        <div class="flex items-center justify-center fill-yellow-500 text-yellow-500">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                          </svg>
+                          
+                        </div>
+                      </div>
+                  </div>
+                  <!-- review -->
+
+                  <div class="swiper-slide">
+                    <div class="w-4/5 lg:w-2/3 xl:w-1/2 mx-auto p-10 rounded-3xl space-y-2 bg-gray-100 group-hover:text-whitetransition-all space-y-10">
+                      <div class="flex items-center space-x-3">
+                        <img src="./images/user.png" alt="service image" class="w-16 h-16 rounded-full">
+                        <div class="font-semibold text-gray-800"> 
+                        <div class="text-xl">Sarah W</div>
+                        <div class="text-xs font-medium text-gray-600">Thursday, 2 May 2021</div>
+                        </div>
+                      </div>
+                      <div>
+                        <blockquote class="text-lg font-medium text-gray-700">
+                          "I was blown away by the quality of the products
+                          and the personalized service I received from
+                          Justlife. They truly go above and beyond to make
+                          sure their customers are happy."
+                        </blockquote>  
+                      </div>
+                      <div class="flex items-center justify-center fill-yellow-500 text-yellow-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                        </svg>
+                        
+                      </div>
+                    </div>
+                </div>
+                <!-- review -->
+
+                </div>
+
+                <div class="swiper-button-next bg-gray-100 text-gray-800 fill-gray-600 rounded-full transition-all duration-400 hover:shadow-xl hover:shadow-t-primary/10"></div>
+                <div class="swiper-button-prev bg-gray-100 text-gray-800 fill-gray-600 rounded-full transition-all duration-400 hover:shadow-xl hover:shadow-t-primary/10"></div>
+                
+                
+              </div>
+
+
+            </div>
+            <!-- secvices grid -->
+          </div>
+          <!-- section body -->
+          
+        </div>
+
+      </section>
+      <!-- how works section -->
+      
+
+      <footer class="py-6 bg-gray-100">
+        <div class="t-container">
+          <div class="flex flex-wrap text-center lg:text-left">
+            
+            <div class="w-full md:w-1/2 lg:w-1/4">
+              <div class="p-6 lg:p-3 space-y-10">
+                <div class="flex justify-center lg:block">
+                  <img src="./images/logo.png" alt="logo" class="w-48">
+                </div>
+                <div class="space-y-2">
+                  <div class="font-semibold">Follow our Socials </div>
+                  <ul class="flex items-center justify-center lg:justify-start space-x-2">
+                    <li>
+                      <a href="">
+                        <img src="./images/icons/fb.svg" alt="icon" class="w-6">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <img src="./images/icons/insta.svg" alt="icon" class="w-6">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <img src="./images/icons/tw.svg" alt="icon" class="w-6">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <img src="./images/icons/in.svg" alt="icon" class="w-6">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- column -->
+
+            <div class="w-full md:w-1/2 lg:w-1/4">
+              <div class="p-6 lg:p-3 space-y-10">
+                <div class="space-y-3">
+                  <h4 class="font-semibold text-xl">Products</h4>
+                  <ul class="font-medium text-sm space-y-2">
+                    <li>
+                      <a href="" class="hover:text-t-secondary">Tutor LMS</a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-t-secondary">WP Mega Menu</a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-t-secondary">Documentation</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- column -->
+
+            <div class="w-full md:w-1/2 lg:w-1/4">
+              <div class="p-6 lg:p-3 space-y-10">
+                <div class="space-y-3">
+                  <h4 class="font-semibold text-xl">Resources</h4>
+                  <ul class="font-medium text-sm space-y-2">
+                    <li>
+                      <a href="" class="hover:text-t-secondary">Promotion</a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-t-secondary">Submit Content</a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-t-secondary">Resources</a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-t-secondary">Design System</a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:text-t-secondary">Expert</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- column -->
+
+            <div class="w-full md:w-1/2 lg:w-1/4">
+              <div class="p-6 lg:p-3 space-y-10">
+                <div class="space-y-3">
+                  <h4 class="font-semibold text-xl">Newsletter</h4>
+                  <div class="space-y-3">
+                    <p class="text-sm ">Subscribe to recieve a monthly
+                      email on the latest news!</p>
+                    <form action="#">
+                      <div class="flex items-center justify-between rounded border  bg-white overflow-hidden hover:border-t-secondary">
+                        <input type="text" class="block w-full lg:w-2/3 p-3 text-sm text-gray-900 focus:outline-none border ">
+                        <button type="submit" class="bg-t-secondary text-white p-3 text-sm w-auto">Subscribe!</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- column -->
+
+          </div>
+        </div>
+      </footer>
+
+
+
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
