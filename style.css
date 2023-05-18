@@ -47,6 +47,10 @@ html,body {
     @apply bg-white hover:bg-t-primary rounded shadow w-32 lg:w-52 py-2 lg:py-3 text-gray-900 hover:text-gray-100 lg:text-xl text-center font-semibold inline-block transition-all;
 }
 
+.t-button-secondary-rainbow {
+    @apply bg-gradient-to-r from-t-secondary to-t-primary rounded shadow w-32 lg:w-52 py-2 lg:py-3 text-white lg:text-lg inline-block hover:bg-purple-800 transition-all;
+}
+
 .t-button-secondary {
     @apply bg-t-secondary rounded shadow w-32 lg:w-52 py-2 lg:py-3 text-white lg:text-lg inline-block hover:bg-purple-800 transition-all;
 }
